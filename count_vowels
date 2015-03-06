@@ -1,0 +1,8 @@
+words = input("Enter the string: ")
+
+count = 0
+
+for alph in words:
+    if alph in "aeiouyAEIOUY":
+        count += 1
+print("The counter of vowels in the string is %d" % count)
